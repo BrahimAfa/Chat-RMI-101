@@ -4,9 +4,7 @@ import java.net.MalformedURLException;
 import java.rmi.Naming;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
-import java.rmi.server.RemoteRef;
 import java.rmi.server.UnicastRemoteObject;
-import java.util.Date;
 import java.util.Vector;
 
 public class ChatServer extends UnicastRemoteObject implements IChatServer {

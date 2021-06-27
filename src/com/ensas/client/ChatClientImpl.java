@@ -1,6 +1,4 @@
 package com.ensas.client;
-import com.ensas.server.IChatClient;
-import com.ensas.server.IChatServer;
 
 import java.net.MalformedURLException;
 import java.rmi.ConnectException;
