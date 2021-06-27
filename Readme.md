@@ -17,18 +17,20 @@ $  javac com/ensas/client/*.java
 ```
 Server :
 ```shell
-$  javac com/ensas/server/*.java 
+$ javac com/ensas/server/*.java 
 ```
 
 ## STEP 4 : run Server and Client:
 
 #### Server :
 ```shell
-$  java com.ensas.server.ChatServer 
+$ java com.ensas.server.ChatServer 
 ```
+***NOTE: AFTER RUNNING SERVER OPEN NEW TERMINAL AND RUN THE FOLLOWING COMMAND FOR CLIENT UI IN THE _SAME PATH_**
 
 #### Client : 
 ```shell
-$  java com.ensas.client.ClientUI 
+$ java com.ensas.client.ClientUI 
 ```
 
+and to run Multiple clients just run the previous command multiple times  
